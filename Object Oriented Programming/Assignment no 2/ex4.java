@@ -43,7 +43,7 @@ float getpercentage(){
 }
 
 }
-class UGmarks {
+class ex4 {
     public static void main(String[] args) {
         Z z = new Z(86,91,62);
         Y y = new Y(23,46,99,65);

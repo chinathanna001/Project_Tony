@@ -25,26 +25,19 @@
     </head>
     <body>
         <div class="group">
-            <div class="login-box">
-                <div class="signin">Sign in</div>
-                <div class="username">Username:</div>
+            <div class="register-box">
+                <div class="register">Register</div>
+                <div class="fullname">Full Name:</div>
                 <div class="username-bo">
-                    <input class="username-box-text" id="username-box-text"  placeholder="Email, UserName or Phone Number"></input>
+                    <input class="username-box-text" id="username-box-text" placeholder="Name" ></input>
                 </div>
-                <div class="password">Password:</div>
-                <div class="password-box">
-                    <input class="password-box-text" id="password-box-text" placeholder="Password"></input>
+                <div class="mail-id">Mail Id:</div>
+                <div class="mail-id-box">
+                    <input class="mail-id-box-text" id="password-box-text" type="password" placeholder="Password"></input>
                 </div>
-                <a class="forget">
-                    Forget Password ?..
-                </a>
                 <div class="signin-box">
-                    <buton class="signin-box-text">Sign in</button>
-                </div>
-                <div class="new">
-                    New to tony?
-                    <a class="regi">Register</a>
-                </div>
+                    <buton class="signin-box-text">Register</button>
+                    </div>
                 </div>
             </div> 
 
@@ -56,17 +49,17 @@
     {
         background-color: black;
     }
-    .login-box
+    .register-box
     {
         position: absolute;
         width: 400px;
-        height: 463px;
+        height: 872px;
         left: calc(50% - 400px/2);
         top: calc(50% - 463px/2 - 0.5px);
         background: #2C2C2C;
         border-radius: 15px;
     }
-    .signin
+    .register
     {
         position: absolute;
         width: 344px;
@@ -81,12 +74,12 @@
         color: #FFFFFF;
     }
 
-    .signin:hover
+    .register:hover
     {
         cursor: default;
     }
 
-    .username
+    .fullname
     {
         position: absolute;
         width: 107px;
@@ -103,7 +96,7 @@
         color: #FFFFFF;
     }
 
-    .username:hover
+    .fullname:hover
     {
         cursor: default;
     }
@@ -125,7 +118,7 @@
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 17px;
         background-color: #ffffff00;
         color: rgba(255, 255, 255, 0.52);
@@ -140,7 +133,7 @@
         border-radius: 10px;
     }
 
-    .username-box-text:visited
+    .username-box-text:enabled
     {
         color: white;
     }
@@ -186,7 +179,7 @@
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 17px;
         color: rgba(255, 255, 255, 0.52);
         position: absolute;
@@ -195,6 +188,11 @@
         background: #2C2C2C;
         border: 1px solid #F9F8F8;
         border-radius: 10px;
+    }
+
+    .password-box-text:enabled
+    {
+        color: white;
     }
 
     .forget
@@ -255,6 +253,11 @@
         color: #FFFFFF;
     }
 
+    .signin-box-text:hover
+    {
+        cursor:pointer;
+    }
+
     .tony
     {
         height: 100px;
@@ -304,5 +307,4 @@
         transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
         cursor: pointer;
     }
-
 </style>

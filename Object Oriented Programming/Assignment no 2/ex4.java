@@ -45,8 +45,8 @@ float getpercentage(){
 }
 class ex4 {
     public static void main(String[] args) {
-        Z z = new Z(86,91,62);
-        Y y = new Y(23,46,99,65);
+        Z z = new Z(86,96,63);
+        Y y = new Y(33,53,67,92);
         float zmark = z.getpercentage();
         float ymark = y.getpercentage();
         System.out.println("mark of z: "+ zmark+"\n"+ "mark of y: "+ymark);

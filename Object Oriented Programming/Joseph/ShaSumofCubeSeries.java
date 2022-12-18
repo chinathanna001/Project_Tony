@@ -11,8 +11,10 @@ class ShaSumofCubeSeries
         int i=1;
         for(i=1;i<=a;i++)
         {
-            sum+=(i*i*i);
+            sum=(i*i*i);       
+            System.out.println(i+"*"+i+"*"+i+" = "+sum);
+               
         }
-        System.out.println(sum);
+
         } 
     }

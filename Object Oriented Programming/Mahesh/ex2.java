@@ -9,10 +9,8 @@ public class ex2 {
         }
         System.out.println(rev);
         System.out.println(txt);
-        if (rev==txt) {
+        if (rev!=txt) {
             System.out.println(" palinbrome");
-            
-    
         }
         else{
             System.out.println("not palinbrome");

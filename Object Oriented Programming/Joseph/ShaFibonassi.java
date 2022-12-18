@@ -10,4 +10,4 @@ public class ShaFibonassi {
         n1 = n2;
         n2 = n3;
     }
-}S
+}
